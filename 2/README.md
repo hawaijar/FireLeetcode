@@ -1,4 +1,4 @@
-[Reverse intger](https://leetcode.com/problems/reverse-integer/)
+[Leetcode page for this problem](https://leetcode.com/problems/reverse-integer/)
 
 # 7. Reverse Integer
 
