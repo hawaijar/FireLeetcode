@@ -1,4 +1,3 @@
-```javascript
 /**
  * @param {number[]} digits
  * @return {number[]}
@@ -35,4 +34,3 @@ var plusOne = function(digits) {
   }
   return result;
 };
-```
