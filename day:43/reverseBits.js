@@ -40,4 +40,6 @@ var reverseBits = function(n) {
     
     return result;
     
-};
+};// Partial solution - need to optimize more!
+
+
