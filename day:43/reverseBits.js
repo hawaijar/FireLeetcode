@@ -40,6 +40,7 @@ var reverseBits = function(n) {
     
     return result;
     
-};// Partial solution - need to optimize more!
+};
+// The above solution was accepted partially - it exceeded timelimit in some input. (Maybe you blame the JS compiler)
 
 
