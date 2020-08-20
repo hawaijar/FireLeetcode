@@ -12,3 +12,5 @@ class Solution {
         return result;
     }
 }
+
+// The above solution was accepted partially - it exceeded timelimit in some input.
