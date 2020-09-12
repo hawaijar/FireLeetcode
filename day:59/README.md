@@ -29,3 +29,9 @@ Input: [-10,9,20,null,null,15,7]
 
 Output: 42
 ```
+
+
+```
+Took help from https://www.youtube.com/watch?v=bm0q6huoriY
+
+```
