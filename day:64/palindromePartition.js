@@ -57,7 +57,6 @@ function dfs(start, str, currentList) {
  * @return {string[][]}
  */
 var partition = function(s) {
-   pMatrix = buildPTable(s);
     pMatrix = buildPTable(s);
     dfs(0, s, [],);
     const r = result.slice();
