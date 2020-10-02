@@ -48,4 +48,8 @@ class Solution:
         r = self.result[:]
         result = []
         return r
-        
+
+if __name__ == '__main__':
+    s = 'aab'
+    sol = Solution()
+    print(sol.partition(s))
