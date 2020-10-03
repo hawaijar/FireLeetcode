@@ -49,9 +49,7 @@ var canCompleteCircuit = function(gas, cost) {
                 next = 0;
             }
         }
-        if(next === current) {
-            return current;
-        }
+       
     }
     return -1;
 };
