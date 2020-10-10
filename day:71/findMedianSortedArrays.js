@@ -46,7 +46,46 @@ function median(num) {
  * @param {number[]} nums2
  * @return {number}
  */
-var findMedianSortedArrays = function(nums1, nums2) {
+var findMedianSortedArrays_bruteforce = function(nums1, nums2) {
     let result = merge_sorted_arrays(nums1, nums2);
     return median(result);
 };
+const findMedianSortedArrays = (nums1, nums2) => {
+    // 1. Find the shorter array of the two lists and make it nums1
+    // 2. Find a pivot point in nums1 (using binary search)
+    // 3. pX + pY = (x + y + 1)/2, where x = len(nums1) and y = len(nums2)
+    if(nums1.length > nums2.length) {
+        return findMedianSortedArrays(nums2, nums1);
+    }
+    let [x, y] = [nums1.length, nums2.length];
+    let [low, high] = [0, x];
+
+    while (low <= high) {
+        let pX = Math.floor((low + high)/2);
+        let pY = Math.floor((x + y + 1)/2) - pX;
+
+        let maxLeftX = (pX === 0)? Number.MIN_SAFE_INTEGER: nums1[pX - 1];
+        let minRightX = (pX === x)? Number.MAX_SAFE_INTEGER: nums1[pX];
+        let maxLeftY = (pY === 0)? Number.MIN_SAFE_INTEGER: nums2[pY - 1];
+        let minRightY = (pY === y)? Number.MAX_SAFE_INTEGER: nums2[pY];
+        // Found the required condition
+        if(maxLeftX <= minRightY && maxLeftY <= minRightX ) {
+            let maxLeft = Math.max(maxLeftX, maxLeftY);
+            let minRight = Math.min(minRightX, minRightY);
+           // for even length
+            if((x + y) % 2 === 0) {
+                return (maxLeft + minRight)/2.0;
+            }
+           // for odd length
+            else {
+                return maxLeft;
+            }
+        }
+        else if(maxLeftX > minRightY) {
+            high = pX - 1;
+        }
+        else {
+            low = pX + 1
+        }
+    }
+}
