@@ -10,3 +10,4 @@ My brain is burning  🔥🔥🔥  every morning 😄 . Thanks Leetcode team for
 ```
 All solutions are accepted by Leetcode
 ```
+Note: Certain solutions contain appreciation notes to those whom I refer their code or/and Youtube channel for getting the idea.
