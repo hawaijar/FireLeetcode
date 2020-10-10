@@ -23,3 +23,5 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 ## Two solutions - Brute Force: O(n) complexity, Binary Search: O(logn)
 ## Check the Javacript solution for both cases.
+
+Thanks to Mr. Tushar Roy (for giving the binary/search idea) - https://www.youtube.com/watch?v=LPFhl65R7ww
