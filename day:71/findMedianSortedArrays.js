@@ -64,10 +64,11 @@ const findMedianSortedArrays = (nums1, nums2) => {
         let pX = Math.floor((low + high)/2);
         let pY = Math.floor((x + y + 1)/2) - pX;
 
-        let maxLeftX = (pX === 0)? Number.MIN_SAFE_INTEGER: nums1[pX - 1];
-        let minRightX = (pX === x)? Number.MAX_SAFE_INTEGER: nums1[pX];
-        let maxLeftY = (pY === 0)? Number.MIN_SAFE_INTEGER: nums2[pY - 1];
-        let minRightY = (pY === y)? Number.MAX_SAFE_INTEGER: nums2[pY];
+        let maxLeftX = (pX === 0)? -Infinity: nums1[pX - 1];
+        let minRightX = (pX === x)? Infinity: nums1[pX];
+        let maxLeftY = (pY === 0)? -Infinity: nums2[pY - 1];
+        let minRightY = (pY === y)? Infinity: nums2[pY];
+        
         // Found the required condition
         if(maxLeftX <= minRightY && maxLeftY <= minRightX ) {
             let maxLeft = Math.max(maxLeftX, maxLeftY);
