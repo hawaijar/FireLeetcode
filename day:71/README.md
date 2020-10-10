@@ -20,3 +20,6 @@ Explanation: merged array = [1,2,3] and median is 2.
 Output: 2.50000
 ```
 Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
+
+## Two solutions - Brute Force: O(n) complexity, Binary Search: O(logn)
+## Check the Javacript solution for both cases.
