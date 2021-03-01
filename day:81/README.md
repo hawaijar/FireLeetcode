@@ -26,5 +26,5 @@ Output: 0
 
 
 
-## This is a simple mathematical problem and we don't even need to find/calculate factorial at the first place!.
+## This is a simple mathematical problem (and there's a formula as well) and we don't even need to find/calculate factorial at the first place!
   Check this [link](https://www.purplemath.com/modules/factzero.htm)
