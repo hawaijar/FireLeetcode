@@ -21,6 +21,7 @@ Output: [9,4]
 
 Explanation: [4,9] is also accepted.
 
+<hr/>
 
 ### What is my approach of solving this problem?
 
