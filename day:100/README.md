@@ -71,5 +71,7 @@ logger.shouldPrintMessage(11, "foo"); // 11 >= 11, return true, next allowed tim
  ```       
  
  ### That's it!
+ 
+ Here's the complete [solution](https://github.com/hawaijar/FireLeetcode/blob/master/day:100/shouldPrintMessage.js)
         
  
