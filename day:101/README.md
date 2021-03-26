@@ -104,4 +104,4 @@ result = ['M']
  ```
  And we return the join(result) = 'MCMXCIV' as a final result.
  
- [Solution code](https://github.com/hawaijar/FireLeetcode/tree/master/day:101)
+ [Solution code](https://github.com/hawaijar/FireLeetcode/blob/master/day:101/convertRoman.js)
