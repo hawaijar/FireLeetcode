@@ -88,3 +88,5 @@ Also we update the minumDistance if the current distance (sum - target) is less 
  ``` 
 
 Finally return the result value.
+
+[Solution code](https://github.com/hawaijar/FireLeetcode/blob/master/day:102/threeSumClosest.js)
