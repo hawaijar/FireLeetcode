@@ -18,3 +18,5 @@ Output: [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
 Input: nums = [], target = 0
 Output: []
 ```
+
+[Solution](https://github.com/hawaijar/FireLeetcode/blob/master/day:103/4sum.js)
