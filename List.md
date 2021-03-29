@@ -2,3 +2,4 @@
 2. Logger Rate Limiter [solution & explanation](https://github.com/hawaijar/FireLeetcode/tree/master/day:100)
 3. Integer to Roman [solution & explanation](https://github.com/hawaijar/FireLeetcode/tree/master/day:101)
 4. 3Sum closest [solution & explanation](https://github.com/hawaijar/FireLeetcode/blob/master/day:102)
+5. 4Sum [solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:103)
