@@ -11,4 +11,4 @@
 11. Subsets [Solution](https://github.com/hawaijar/FireLeetcode/blob/master/day:110/README.md)
 12. N Queens problem [Solution](https://github.com/hawaijar/FireLeetcode/edit/master/day:111/README.md)
 13. Comibination Sum II (unique numbers) [Solution](https://github.com/hawaijar/FireLeetcode/blob/master/day:112/README.md)
-14. Multiply two Strings (Solution)[https://github.com/hawaijar/FireLeetcode/blob/master/day:113/README.md]
+14. Multiply two Strings [Solution](https://github.com/hawaijar/FireLeetcode/blob/master/day:113/README.md)
