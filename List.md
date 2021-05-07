@@ -15,3 +15,4 @@
 15. Minimum jump to reach the goal [Solution](https://github.com/hawaijar/FireLeetcode/blob/master/day:114/README.md)
 16. Rotate a matrix/image [Solution](https://github.com/hawaijar/FireLeetcode/blob/master/day:117/README.md)
 17. Group Anagrams [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:118)
+18. Merge k-sorted list [Solution](https://github.com/hawaijar/FireLeetcode/blob/master/day:119)
