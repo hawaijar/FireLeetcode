@@ -16,4 +16,4 @@
 16. Rotate a matrix/image [Solution](https://github.com/hawaijar/FireLeetcode/blob/master/day:117/README.md)
 17. Group Anagrams [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:118)
 18. Merge k-sorted list [Solution](https://github.com/hawaijar/FireLeetcode/blob/master/day:119)
-19. Trapping Rain Water [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:120)
+19. Trapping Rain Water [Explanation](https://mayengbamsushilkumar.com/2021/05/08/trapping-water-how-much/) [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:120)
