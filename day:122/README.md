@@ -1,18 +1,16 @@
-## 139. Word Break
-[Leetcode link](https://leetcode.com/problems/word-break/)
+## 127. Word Ladder
+[Leetcode link](https://leetcode.com/problems/word-ladder/)
 
-Given a string s and a dictionary of strings wordDict, return true if s can be segmented into a space-separated sequence of one or more dictionary words.
-
-Note that the same word in the dictionary may be reused multiple times in the segmentation.
+Given two words, beginWord and endWord, and a dictionary wordList, return the number of words in the shortest transformation sequence from beginWord to endWord, or 0 if no such sequence exists.
 
  
 
 ### Example 1:
 
 ```
-Input: s = "leetcode", wordDict = ["leet","code"]
-Output: true
+Input: beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log","cog"]
+Output: 5
 ```
 
 ### Explanation: 
-Return true because "leetcode" can be segmented as "leet code".
+One shortest transformation sequence is "hit" -> "hot" -> "dot" -> "dog" -> cog", which is 5 words long.
