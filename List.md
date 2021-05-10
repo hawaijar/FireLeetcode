@@ -19,3 +19,4 @@
 19. Trapping Rain Water [Explanation](https://mayengbamsushilkumar.com/2021/05/08/trapping-water-how-much/) [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:120)
 20. Merge inervals [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:121)
 21. Word Ladder [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:122)
+22. Word break (Second) [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:123)
