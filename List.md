@@ -21,3 +21,4 @@
 21. Word Ladder [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:122)
 22. Word break (Second) [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:123)
 23. LRU Cache [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:124)
+24. Finding number of islands [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:125)
