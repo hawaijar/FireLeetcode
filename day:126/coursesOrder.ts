@@ -1,5 +1,6 @@
-function findOrder(numCourses: number, prerequisites: number[][]): number[] {
-   // base case
+type Course = { course: number; completed: boolean; started: boolean };
+
+function findOrder(numCourses: number, prerequisites: number[][]): number[] {// base case
 	if (numCourses === 0) {
 		return [];
 	}
@@ -10,7 +11,7 @@ function findOrder(numCourses: number, prerequisites: number[][]): number[] {
 	const courses = new Array(numCourses)
 		.fill(0)
 		.map((_, index) => ({ course: index, completed: false, started: false }));
-	const dependenciesMap = [];
+	const dependenciesMap: { [key: number]: Course[] }  = {};
 
 	for (let [dependentCourse, mainCourse] of prerequisites) {
 		if (!dependenciesMap[dependentCourse]) {
@@ -39,7 +40,7 @@ function findOrder(numCourses: number, prerequisites: number[][]): number[] {
 				return;
 			}
 			dependent.started = true;
-			if(dfs(dependent) === null) {
+			if (dfs(dependent) === null) {
 				return null;
 			}
 		}
@@ -53,7 +54,7 @@ function findOrder(numCourses: number, prerequisites: number[][]): number[] {
 	}
 
 	for (let subject of courses) {
-		if(dfs(subject) === null) {
+		if (dfs(subject) === null) {
 			return [];
 		}
 	}
