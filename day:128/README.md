@@ -29,3 +29,5 @@ Window position                Max
  1  3  -1  -3 [5  3  6] 7       6
  
  1  3  -1  -3  5 [3  6  7]      7
+ 
+ [Solution](https://leetcode.com/problems/sliding-window-maximum/discuss/1221894/Deque-JS-Solution)
