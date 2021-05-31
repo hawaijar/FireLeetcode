@@ -25,3 +25,4 @@
 25. Courses ordering(aka creating dependency graph) [Solution](https://github.com/hawaijar/FireLeetcode/edit/master/day:126)
 26. Find maximum square in a grid [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:127)
 27. Sliding Window Maximum [Solution](https://github.com/hawaijar/FireLeetcode/blob/master/day:128/README.md)
+28. Diameter of a binary tree [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:129)
