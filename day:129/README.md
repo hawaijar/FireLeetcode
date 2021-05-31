@@ -15,3 +15,5 @@ Output: 3
 ```
 
 ### Explanation: 3 is the length of the path [4,2,1,3] or [5,2,1,3]
+
+[Reference video](https://www.youtube.com/watch?v=ey7DYc9OANo)
