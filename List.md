@@ -28,3 +28,4 @@
 28. Diameter of a binary tree [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:129)
 29. Combination Sum [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:130)
 30. Number of islands [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:131)
+31. Search words (simplified word puzzle) [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:132)
