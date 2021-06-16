@@ -24,6 +24,8 @@ Output: 7
 - If current operator is '-' then push -(current digit) to stack
 - If current operator is '*', pop the stack and multiply its value by current digit. Push the result to stack
 - If current operator is '/', check whether the current digit is negative.  ===> !!! important step !!!
+
     a. Pop the stack = x and take Math.floor(Math.abs(x)/ current digit) = y
+    
     b. if x < 0, push(-y) else, push (y)
 - Sum all digits in stack and return.
