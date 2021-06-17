@@ -30,3 +30,4 @@
 30. Number of islands [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:131)
 31. Search words (simplified word puzzle) [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:132)
 32. Basic calculator [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:133)
+33. Minimum conference rooms [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:134)
