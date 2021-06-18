@@ -31,3 +31,4 @@
 31. Search words (simplified word puzzle) [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:132)
 32. Basic calculator [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:133)
 33. Minimum conference rooms [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:134)
+34. Number to Words [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:135)
