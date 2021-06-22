@@ -32,3 +32,4 @@
 32. Basic calculator [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:133)
 33. Minimum conference rooms [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:134)
 34. Number to Words [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:135)
+35. Longest Common SubSequence [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:136)
