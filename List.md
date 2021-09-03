@@ -34,3 +34,4 @@
 34. Number to Words [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:135)
 35. Longest Common SubSequence [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:136)
 36. Spiral order of matrix [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:137)
+37. Merged 2 sorted lists [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:138)
