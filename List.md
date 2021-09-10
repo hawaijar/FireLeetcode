@@ -36,3 +36,4 @@
 36. Spiral order of matrix [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:137)
 37. Merged 2 sorted lists [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:138)
 38. Partition Lists [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:139)
+39. Count binary search trees [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:140)
