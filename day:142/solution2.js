@@ -34,6 +34,7 @@ function minWindow(bigString, smallString) {
       }
       if (count === 0) {
         // remove unwanted prefixes
+        // scenario: bigString ='AAAAABCDE' and smallString='ABC'
         while (count === 0) {
           const iChar = bigString[i];
           if (CHARS.includes(iChar)) {
