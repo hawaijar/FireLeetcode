@@ -1,29 +1,9 @@
-/**
- *
- * @param h1 (bigger string)
- * @param h2 (smaller string)
- * @return {boolean}
- */
-function hashesMatching(h1, h2) {
-  for (let key in h2) {
-    if (key in h1) {
-      if (h1[key] < h2[key]) {
-        return false;
-      }
-    } else {
-      return false;
-    }
-  }
-  return true;
-}
+// Minimum Window Substring
+// Input: s = "ADOBECODEBANC", t = "ABC"
+// Output = "BANC"
 
-/**
- * @param {string} s
- * @param {string} t
- * @return {string}
- */
-var minWindow = function(bigString, smallString) {
-   // base case
+function minWindow(bigString, smallString) {
+  // base case
   if (smallString.length === 1) {
     return bigString.indexOf(smallString) === -1 ? "" : smallString;
   }
@@ -76,4 +56,9 @@ var minWindow = function(bigString, smallString) {
   }
   if (!found) return "";
   return result;
-};
+}
+
+const bigString = "abc";
+const smallString = "bc";
+
+console.log(minWindow(bigString, smallString));
