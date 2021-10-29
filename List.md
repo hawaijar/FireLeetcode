@@ -39,3 +39,4 @@
 39. Count binary search trees [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:140)
 40. Interweaving Strings [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:141)
 41. Finding smallest common substring (Sliding Window) [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:142)
+42. Longest susbstring of non/repeated characters (Sliding window) [Solution](https://github.com/hawaijar/FireLeetcode/tree/master/day:143)
