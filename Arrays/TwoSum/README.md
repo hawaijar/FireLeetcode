@@ -26,3 +26,5 @@ Output: [3,3]
 [Leetcode link](https://leetcode.com/problems/two-sum/)
 
 [My solution](https://github.com/hawaijar/FireLeetcode/blob/feature/algoexpert/Arrays/TwoSum/index.js)
+
+[Test cases](https://github.com/hawaijar/FireLeetcode/tree/feature/algoexpert/Arrays/__tests__)
