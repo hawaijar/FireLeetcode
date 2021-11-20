@@ -24,3 +24,4 @@ Input: nums = [3,3], target = 6
 Output: [3,3]
 
 [Leetcode link](https://leetcode.com/problems/two-sum/)
+[My solution](https://github.com/hawaijar/FireLeetcode/blob/feature/algoexpert/Arrays/TwoSum/index.js)
