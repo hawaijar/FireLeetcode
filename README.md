@@ -3,7 +3,7 @@ My curated list of Data/Structure & Algorithm problems
 
 [![Build Status](https://app.travis-ci.com/hawaijar/FireLeetcode.svg?branch=feature%2Falgoexpert)](https://app.travis-ci.com/hawaijar/FireLeetcode)
 
-This repo contains many popular algorithms (based on common data structures and algorithms) written in JavaScript. There's (less) organised repo (master) if you want to refer problem randomly.
+This repo contains many popular algorithms (based on common data structures and algorithms) written in JavaScript. There's (less) organised repo (master) if you want to refer problems randomly.
 
 It is structured based on data structure names (Arrays, Strings, Trees etc.)
 And under each category will have curated (popular) list of problems and solutions as well. Attempts have been made to find multiple solutions (against each problem) to compare/contrast complexity(between/among them) as well.
