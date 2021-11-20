@@ -48,9 +48,42 @@ And since there's no extra data structure being used, space will remain same (on
 
 _Space complexity = O(1)_
 
+### Solution2 (Using Hash to improve performance)
+In this approach, we improve the performance at the expense of extra memory (for Hash structure) by having only one loop.
+For each element _a_ in each iteration, we find _b_ (_targetSum - a_) and store _b_ in the hash.
 
+Every iteration, we check the iteration value is already in the hash. If it is, we know that it should have been added in the earlier iteration (_a value_) and hence return [a,b]
 
+#### Complexity:
+Since we're using 1 loop, the time complexity will be O(n).
 
+_Time complexity = O(n)_
+
+And since there's extra data structure being used, and worst case we store all elements in it, space complexity will be O(n)
+
+_Space complexity = O(n)_
+
+#### Can we do it better? A bit and that's Solution3
+
+### Solution3 (Using Two pointers)
+In this approach, we best improve the space complexity to O(1) by sacrificing a bit on performance (sorting).
+
+First we sort the array (complexity expense = O(nlogn))
+
+Then we use two pointers _a_ and _b_ pointing to each end of the array.
+
+The idea is that if _a + b_ is > _c_ then since the array is sorted, _b_ pointer has to decrement.
+And for _a + b < c_, the _a_ pointer needs to increment.
+
+If _a + b = c_, return [a,b]
+
+#### Complexity:
+Since we're using 1 loop and sorting is also done, the time complexity will be O(nlogn).
+
+_Time complexity = O(nlogn)_
+
+And since there's no extra data structure used, space will be constant.
+_Space complexity = O(1)_
 
 
 [Leetcode link](https://leetcode.com/problems/two-sum/)
