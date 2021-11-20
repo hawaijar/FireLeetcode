@@ -2,6 +2,7 @@
 My curated list of Data/Structure & Algorithm problems
 
 [![Build Status](https://app.travis-ci.com/hawaijar/FireLeetcode.svg?branch=feature%2Falgoexpert)](https://app.travis-ci.com/hawaijar/FireLeetcode)
+[![Coverage Status](https://coveralls.io/repos/github/hawaijar/FireLeetcode/badge.svg?branch=feature/algoexpert)](https://coveralls.io/github/hawaijar/FireLeetcode?branch=feature/algoexpert)
 
 This repo contains many popular algorithms (based on common data structures and algorithms) written in JavaScript. There's also a (less)organised repo (master) if you want to refer problems randomly.
 
