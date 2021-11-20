@@ -19,4 +19,8 @@ describe("Testing Index problem", () => {
       expect(object.solution1()).toEqual(solutions[i]);
     });
   }
+  test("Test: default condition", () => {
+    object.setInput();
+    expect(object.solution1()).toEqual([]);
+  });
 });

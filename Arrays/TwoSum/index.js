@@ -11,6 +11,8 @@ class Program {
   // c = a + b
   // c is the targetSum and we've to find the (first) a & b
   solution1() {
+    // base case
+    if (this.array.length === 0) return [];
     for (let i = 0; i < this.array.length; i++) {
       const a = this.array[i];
       for (let j = i + 1; j < this.array.length; j++) {
