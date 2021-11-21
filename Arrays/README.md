@@ -1,5 +1,5 @@
 ### List of Array based problems
 
-- [Two Sum - Given an array and a target, find two numbers whose sum is target](TwoSum/README.md)
-- [Three Sum - Given an array and a target, find three numbers whose sum is target](ThreeSum/README.md)
-
+- [Two Sum](TwoSum/README.md) - Given an array and a target, find two numbers whose sum is target [**easy**]
+- [Three Sum](ThreeSum/README.md) - Given an array and a target, find three numbers whose sum is target [**easy**]
+- [Validate Sequence](ValidateSequence/README.md) - Given two arrays, check if the second one is a sequence of the first.
