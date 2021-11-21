@@ -61,7 +61,6 @@ class Program {
     return [];
   }
 }
-
 // let o = new Program();
 // o.setInput([3, 5, -4, 8, 11, 1, -1, 6, 1], 10);
 // console.log(o.solution3());
