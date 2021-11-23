@@ -57,10 +57,38 @@ class Program {
     }
     return result;
   }
+  // Using hash structure
+  solution2() {
+    // base case
+    if (this.isEmpty()) return [];
+    if (this.array.length === 1) return [this.array[0], this.array[0]];
+
+    const hash = {};
+    for (let num of this.array) {
+      hash[num] = false; // add only unique elements
+    }
+    let largestRange = -Infinity;
+    let result = [];
+    for (let num of this.array) {
+      if (hash[num]) continue; // ignore visited elements
+      let startIndex = num;
+      while (startIndex in hash) {
+        hash[startIndex] = true; // mark as 'visited'
+        startIndex -= 1;
+      }
+      startIndex += 1;
+      const range = num - startIndex;
+      if (range > largestRange) {
+        largestRange = range;
+        result = [startIndex, num];
+      }
+    }
+    return result;
+  }
 }
 
 // let o = new Program();
 // o.setInput([1, 1, 1, 3, 4]);
-// console.log(o.solution1());
+// console.log(o.solution2());
 
 export default Program;

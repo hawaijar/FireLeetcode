@@ -29,4 +29,18 @@ describe("Testing solutions for LargestRange problem", () => {
       expect(object1.solution1()).toEqual([]);
     });
   });
+  // Suite for solution2 (Using hash)
+  describe("Testing Solution2", () => {
+    const object2 = new LargestRange();
+    for (let i = 0; i < arrays.length; i++) {
+      test(`Test: ${i + 1}`, () => {
+        object2.setInput(arrays[i]);
+        expect(object2.solution2().sort()).toEqual(solutions[i].sort());
+      });
+    }
+    test("Test: default condition", () => {
+      object2.setInput();
+      expect(object2.solution2()).toEqual([]);
+    });
+  });
 });
