@@ -42,11 +42,11 @@ Then we finally check whether _a + b_ = _targetSum_
 #### Complexity:
 Since we're using two loops, the time complexity will be O(n²).
 
-_Time complexity = O(n²)_
+	Time complexity = O(n²)
 
 And since there's no extra data structure being used, space will remain same (only loop variables and few temp variables)
 
-_Space complexity = O(1)_
+	Space complexity = O(1)
 
 ### Solution2 (Using Hash to improve performance)
 In this approach, we improve the performance at the expense of extra memory (for Hash structure) by having only one loop.
@@ -57,11 +57,11 @@ Every iteration, we check the iteration value is already in the hash. If it is, 
 #### Complexity:
 Since we're using 1 loop, the time complexity will be O(n).
 
-_Time complexity = O(n)_
+	Time complexity = O(n)
 
 And since there's extra data structure being used, and worst case we store all elements in it, space complexity will be O(n)
 
-_Space complexity = O(n)_
+	Space complexity = O(n)
 
 #### Can we do it better? A bit and that's Solution3
 
@@ -80,10 +80,10 @@ If _a + b = c_, return [a,b]
 #### Complexity:
 Since we're using 1 loop and sorting is also done, the time complexity will be O(nlogn).
 
-_Time complexity = O(nlogn)_
+	Time complexity = O(nlogn)
 
 And since there's no extra data structure used, space will be constant.
-_Space complexity = O(1)_
+	Space complexity = O(1)
 
 
 [Leetcode link](https://leetcode.com/problems/two-sum/)

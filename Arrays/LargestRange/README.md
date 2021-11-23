@@ -25,11 +25,11 @@ Let's take the above array example - [2, 1, 4, 5, 6, 3, 10, 12]
 
 Since we sort the array (O(nlogn)) and there is one loop (O(n)), the time complexity would be O(nlogn) - the greater of the two.
 
-_Time complexity = O(nlogn)_
+	Time complexity = O(nlogn)
 
 And since we return a new sorted array, the space complexity would be O(n)
 
-_Space complexity = O(n)_
+	Space complexity = O(n)
 
 ### Solution2 (Easy and Intuitive) - Using Hash structure
 
@@ -56,8 +56,8 @@ Let's take the above array example -
 
 Since we use Hash structure to ensure that we visited each element only once, the complexity would be O(n)
 
-_Time complexity = O(n)_
+	Time complexity = O(n)
 
 And since we are using a new Hash structure, space complexity would be O(n)
 
-_Space complexity = O(n)_
+	Space complexity = O(n)

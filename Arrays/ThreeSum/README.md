@@ -30,11 +30,11 @@ Then we finally check whether _a + b + c_ = _targetSum_
 
 Since we're using three loops, the time complexity will be O(n³).
 
-_Time complexity = O(n³)_
+	Time complexity = O(n³)
 
 And since there's no extra data structure being used, space will remain same (only loop variables and few temp variables)
 
-_Space complexity = O(1)_
+	Space complexity = O(1)
 
 ###### Don't use this approach even in your testing. It's horribly slow.
 
@@ -52,10 +52,10 @@ If _a + b + c = targetSum_, return [a,b,c]
 #### Complexity:
 Since we're using 2 loops and sorting is also done, the time complexity will be O(n²).
 
-_Time complexity = O(n²)_
+	Time complexity = O(n²)
 
 And since there's no extra data structure used, space will be constant.
-_Space complexity = O(1)_
+	Space complexity = O(1)
 
 ### Solution3 (Improved Two pointers - ignore duplicates)
 
@@ -64,4 +64,4 @@ Imagine we have a sample array like [1,1,1,1,1,2,2,2,2,3,3,3,4,5,6,7,8,8,8,8,9,1
 In the above example, let's say we start with _a=1_ (outer loop) and inside inner loop, we can skip duplicate 1s after it and _b_ index will start from _2_.
 Similarly, _c_ will be pointing to the second last _10_
 
-_Time complexity remains O(n²)_, but it'll be a better one when there are many duplicates in the array.
+	Time complexity remains O(n²), but it'll be a better one when there are many duplicates in the array.

@@ -4,4 +4,4 @@
 - [Validate Sequence](ValidateSequence/README.md) - Given two arrays, check if the second one is a sequence of the first [**easy**]
 - [Three Sum](ThreeSum/README.md) - Given an array and a target, find three numbers whose sum is target [**medium**]
 - [Largest Range](LargestRange/README.md) - Given an array, find the largest range in it. (**Medium**)
-
+- [Shortest Unsorted subArray](ShortestUnsortedArray/README.md) - Given an array, find the shortest unsorted (sub)array in it.
