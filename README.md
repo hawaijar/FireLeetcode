@@ -14,7 +14,7 @@ Also, there is a unit testing folder (__test__) to include some sample test case
 
 _A small disclaimer_: This project is meant to be used for learning and researching purposes only, and it is not meant to be used for production.
 
-_Note_: Currently, the test coverage reflects only JS code. Test coverage for Swift is in the plan.
+_Note_: Currently, the test coverage reflects only JS code. Test coverage for Swift/Kotlin is in the plan.
 
 
 
