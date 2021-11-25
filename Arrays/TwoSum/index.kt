@@ -35,3 +35,15 @@ class TwoNumberSum(private var array: MutableList<Int>, private var targetSum: I
 		return listOf<Int>()
 	}
 }
+
+// Testing
+
+
+/*
+fun main(args: Array<String>) {
+   val array = listOf(3, 5, -4, 8, 11, 1, -1, 6);
+	val targetSum = 10
+	val o = TwoNumberSum(array as MutableList<Int>, targetSum)
+	println(o.solution2())
+}
+*/
