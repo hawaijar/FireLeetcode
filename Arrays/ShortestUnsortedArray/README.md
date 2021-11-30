@@ -55,7 +55,7 @@ In the given array, the correct positions of [3, 6] is [2, 5] and that's the ans
 
 #### Complexity:
 
-Since we are just scanning the array (and w/o using any loop),
+Since we are just scanning the array (and w/o using any nested (inner) loop),
 
 	Time complexity = O(n)
 
