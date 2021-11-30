@@ -28,11 +28,27 @@ As we can see above, the first discrepancy (from the start) is at index 2 and th
 
 #### Complexity:
 
-Since we sort the array and there's nested loop, complexity would be O(nlogn)
+Since we sort the array and there's no nested loop, complexity would be O(nlogn)
 
 	Time complexity = O(nlogn)
 
-And since there's extra array (sorted one) space complexity would be O(n)
+And since there's extra array (sorted one) used, space complexity would be O(n)
 
 	Space complexity = O(n)
 
+### Solution2 (scanning approach)
+
+Step1: First, scan (from left) each element and find the elements that are out of order.
+
+Step2: Second, find the smallest (A) from them and largest (B) from them.
+
+Step3: Third, find the right positions, i & j from the Array
+
+Step4: Return [i, j]
+
+Consider the array
+
+	[1, 2, 6, 5, 3, 4, 8]
+
+In the above, the unsorted group = [6, 5, 3], so the smallest & largest numbers from this group = [3, 6]
+In the given array, the correct positions of [3, 6] is [2, 5] and that's the answer.
