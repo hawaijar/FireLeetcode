@@ -52,3 +52,13 @@ Consider the array
 
 In the above, the unsorted group = [6, 5, 3], so the smallest & largest numbers from this group = [3, 6]
 In the given array, the correct positions of [3, 6] is [2, 5] and that's the answer.
+
+#### Complexity:
+
+Since we are just scanning the array (and w/o using any loop),
+
+	Time complexity = O(n)
+
+And since there's extra array (for storing unsorted numbers) used, space complexity would be O(n)
+
+	Space complexity = O(n)
