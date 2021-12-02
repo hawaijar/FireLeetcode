@@ -38,7 +38,7 @@ If it is, we know that's part of a sequence, and we continue this process until 
 
 Let's take the above array example -
 
-	[5, 3, 2, 1, 0, 10]
+	[5, 3, 2, 1, 4, 0, 10]
 
 - We store all the elements in the Hash and marked them as 'false' (not visited)
 - We start with _5_ (_endIndex_).
