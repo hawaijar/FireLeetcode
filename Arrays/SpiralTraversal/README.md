@@ -31,12 +31,13 @@ Initial values:
 
 ``Then decrement _endCol_ because we're going to print the bottom row starting from it.``
 - Traverse the array from (bottom) right to the left
-  ``for i = endCol to startCol, print(array[endRow][i])``
 
-``Then decrement _endRow_ because we're going to print the left row starting from it.``
+  ``for i = endCol to startCol, print(array[endRow][i])`` (decreasing order)
+
+``Then decrement _endRow_ because we're going to print the left column starting from it.``
 - Traverse the array from (bottom) left to the top
 
-  ``for i = endRow to startRow, print(array[i][startCol])``
+  ``for i = endRow to startRow, print(array[i][startCol])`` (decreasing order)
 
 ``Then increment _startCol_ because we're going to start the whole loop again starting from it.``
 
