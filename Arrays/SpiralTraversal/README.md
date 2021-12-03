@@ -2,10 +2,10 @@
 Given a 2D array (m x n) nums, return all elements of the array in spiral order.
 
 ##### Example 1:
-![figure1](https://assets.leetcode.com/uploads/2020/11/13/spiral1.jpg)
+![figure1](../assets/spiral1.jpeg)
 
 ##### Example 2:
-![figure1](https://assets.leetcode.com/uploads/2020/11/13/spiral.jpg)
+![figure1](../assets/spiral1.jpeg)
 
 ## Explanation
 
