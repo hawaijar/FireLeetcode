@@ -6,3 +6,4 @@
 - [Largest Range](LargestRange/README.md) - Given an array, find the largest range in it. (**Medium**)
 - [Unsorted subArray](ShortestUnsortedArray/README.md) - find the unsorted (sub)array that makes the array unsorted.
 - [Spiral Traversal of Array](SpiralTraversal/README.md) - Print elements of (2D) array in spiral order
+- [ZigZag Traversal of Array](ZigZagTraversal/README.md) - Print elements of (2D) array in ZigZag(diagonals) order
