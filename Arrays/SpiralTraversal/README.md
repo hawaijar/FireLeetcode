@@ -44,7 +44,7 @@ Initial values:
 
 We need 4 (four) loops - one for each traversal. The only thing that we need to watch out is that while we're traversing for the _bottom_ and _left_, we need to ensure the below conditions while traversing their loop.
 
-Note: These conditions won't be required if the given array is a square (m x m).
+	Note: These conditions won't be required if the given array is a square (m x m).
 
 - startRow <= endRow
 - startCol <= endCol
