@@ -20,7 +20,7 @@ describe("Testing solutions for ZigZagTraversal problem", () => {
       });
     }
     test("Test: default condition", () => {
-      expect(object.zigzagTraverse([[]])).toEqual([]);
+      expect(object.zigzagTraverse([])).toEqual([]);
     });
   });
 });
