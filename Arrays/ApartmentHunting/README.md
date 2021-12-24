@@ -16,7 +16,7 @@ The 'true' value indicates that the facility is available in that block.
 
 If we put this in a tabular fashion, it would be like this -
 
-![img.png](img.png)
+![img_1.png](img_1.png)
 
 Let's take the example of block1. We say the distance to the facility 'School' in this block is 2 because this facility is available only in Block3, and we need to walk there two blocks from Block1.
 We put 0 when the facility is available in the block. With this logic, we come up the above figures on the table.
