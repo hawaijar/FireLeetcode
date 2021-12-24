@@ -7,3 +7,5 @@
 - [Unsorted subArray](ShortestUnsortedArray/README.md) - find the unsorted (sub)array that makes the array unsorted.
 - [Spiral Traversal of Array](SpiralTraversal/README.md) - Print elements of (2D) array in spiral order
 - [ZigZag Traversal of Array](ZigZagTraversal/README.md) - Print elements of (2D) array in ZigZag(diagonals) order
+- [Apartment hunting](ApartmentHunting/README.md) - Find the optimal apartment to choose given constraint on facilities' availability.
+
