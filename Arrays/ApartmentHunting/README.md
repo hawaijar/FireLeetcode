@@ -48,7 +48,7 @@ I think the complexity would be -
 
 	Time complexity = O(n³)
 
-####Can we do it better?
+#### Can we do it better?
 
 ### Solution2 (Left & Right scanning)
 
