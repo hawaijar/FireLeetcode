@@ -1,4 +1,4 @@
-import BracketsMatching from "../../Stacks/BracketsMatching";
+import BracketsMatching from "../BracketsMatching";
 
 const object = new BracketsMatching();
 const problems = [
