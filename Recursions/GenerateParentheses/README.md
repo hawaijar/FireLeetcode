@@ -18,7 +18,7 @@ Note: If you want to really test whether a person knows recursion well, this is 
 
 Follow this diagram for n = 2.
 
-![img.png](img.png)
+![img_1.png](img_1.png)
 
 There will be two recursions - one for handling left brackets, and one for handling right brackets
 
