@@ -8,4 +8,5 @@
 - [Spiral Traversal of Array](SpiralTraversal/README.md) - Print elements of (2D) array in spiral order (**Medium**)
 - [ZigZag Traversal of Array](ZigZagTraversal/README.md) - Print elements of (2D) array in ZigZag(diagonals) order (**Medium**)
 - [Apartment hunting](ApartmentHunting/README.md) - Find the optimal apartment to choose given constraint on facilities' availability. (**Hard**)
+- [Maximum Water Container](MaxWaterContainer/README.md) - Maximum water container given heights of buildings.
 
