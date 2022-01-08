@@ -10,7 +10,7 @@ Return _the maximum amount of water a container can store._
 Notice that you may not slant the container.
 
 ### Example 1:
-![image](image.jpeg)
+![image](../assets/image.jpeg)
 
 **Input**: height = [1,8,6,2,5,4,8,3,7]
 
@@ -33,7 +33,7 @@ For left < right, repeat the below steps:
   - Update _largestArea_ as Area if it's less than it.
   - if height(left) < height(right)
     - left += 1
-    
+
     else:
     - right -= 1
 
