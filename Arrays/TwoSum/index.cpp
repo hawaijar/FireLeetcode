@@ -13,7 +13,6 @@ public:
 #endif //FIRELEETCODE_CPP_TWOSUM_H
 
 #include <map>
-#include "TwoSum.h"
 
 vector<int> TwoSumSolution::solution1(vector<int> &nums, int target) {
    if(nums.size() < 2) {
