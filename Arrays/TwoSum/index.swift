@@ -18,6 +18,22 @@ class TwoNumberSum {
     
     return []
   }
+  func solution2(_ array: inout [Int], _ targetSum: Int) -> [Int] {
+    var hash: [Int: Bool] = [:]
+    
+    for num in array {
+        let x = num
+        let y = targetSum - a
+        if let _ = hash[y] {
+            return [a, y]
+        }
+        else {
+            hash[x] = true
+        }
+    }
+    
+    return []
+  }
     
   // 2-pointers approach
   func solution2(_ array: inout [Int], _ targetSum: Int) -> [Int] {
