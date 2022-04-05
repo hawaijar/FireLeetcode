@@ -20,6 +20,8 @@ class ThreeNumberSum {
                         
                 if a + b + c == targetSum {
                     result.append([a,b,c])
+                    j += 1
+                    k -= 1
                 }
                 if a + b + c < targetSum {
                     j += 1
