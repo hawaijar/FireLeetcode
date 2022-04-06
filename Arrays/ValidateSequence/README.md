@@ -17,7 +17,7 @@ However, C = [6, -1, 5, 22] is not a sequence of A, though all its numbers are i
 
 Take two pointers - _i_ pointing to A and _j_ pointing to B.
 
-Step 1: Iterate A and whenever the _character[i] == character[j]_, increment _j_
+Step 1: Iterate A and whenever the _character[i] == character[j]_, **increment _i_ and _j_**
 
 Step 2: Repeat Step 1 until the loop exits (return **false**) or _j_ reaches the end of B (return **true**), in that case it means all its characters are present in A.
 
