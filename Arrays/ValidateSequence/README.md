@@ -10,6 +10,8 @@ A sequence, B of another array, A is a set of numbers that are present in the ar
 
 B is a sequence of A and hence output should be **true**
 
+However, C = [6, -1, 5, 22] is not a sequence of A, though all its numbers are in A.
+
 
 ## Solution
 
