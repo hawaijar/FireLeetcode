@@ -4,6 +4,7 @@
 - [Three Sum](ThreeSum/README.md) - Given an array and a target, find triplets whose sum equals target [**medium**]
 - [Four Sum](FourSum/README.md) - Given an array and a target, find quadruplets whose sum equals target [**medium**]
 - [Validate Sequence](ValidateSequence/README.md) - Given two arrays, check if the second one is a sequence of the first [**easy**]
+- [Sorted Square](SortedSquareArray/README.md) - Given an array, return sorted square of the array [**easy**]
 - [Largest Range](LargestRange/README.md) - Given an array, find the largest range in it. (**Medium**)
 - [Unsorted subArray](ShortestUnsortedArray/README.md) - find the unsorted (sub)array that makes the array unsorted.(**Medium**)
 - [Spiral Traversal of Array](SpiralTraversal/README.md) - Print elements of (2D) array in spiral order (**Medium**)

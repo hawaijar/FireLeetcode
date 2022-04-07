@@ -5,7 +5,7 @@ func isValidSubsequence(_ array: [Int], _ sequence: [Int]) -> Bool {
     }
     var i = 0
     var j = 0
-    
+
     while i < array.count {
         if(array[i] == sequence[j]) {
             j += 1
