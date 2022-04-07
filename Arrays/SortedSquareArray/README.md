@@ -1,4 +1,4 @@
-Given a sorted array of integers, return a new sorted array which contain squares of each number in the given array. Lets
+Given a sorted array of integers, return a new sorted array which contain squares of each number in the given array.
 
 Note: Can we do this without using any **sort()** function?
 
