@@ -46,16 +46,16 @@ For list = [1, 2, 5]
 
 _maxConstructable_ = 0 initially
 
-First iteration: element = 1
+**First iteration:** element = 1
 
 _maxConstructable_ + 1 == 1 which is greater/equal to element(1) and we update _maxConstructable_ = _maxConstructable_ + element = 1
 
 So, _maxConstructable_ = 1
 
-Second iteration: element 2
+**Second iteration:** element 2
 _maxConstructable_ + 1 == 2 which is greater/equal to element(2) and we update _maxConstructable_ = _maxConstructable_ + element(2) = 3
 
 So, _maxConstructable_ = 3
 
-Third iteration: element 5
+**Third iteration:** element 5
 _maxConstructable_ + 1 == 4 which is less than element(5) and we return _maxConstructable_ + 1 = 4 as the answer which is true.
