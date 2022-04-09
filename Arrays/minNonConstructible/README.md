@@ -1,6 +1,6 @@
 #### Given a list of coin changes, find the _minimum_ change that cannot be constructable from the given changes.
 
-###Example:
+### Example:
 If the list = [1, 2, 3] then the answer is 7
 If the list  [1, 2, 4] then the answer is also 7
 
@@ -8,7 +8,7 @@ However, if the list is [1, 2, 5] then the answer is 4!
 
 Imagine you're given a thousand coin changes, **How will you solve the problem in optimal time?**
 
-###Solution:
+### Solution:
 
 The optimal solution is more of a mathematical correlation between the values of each consecutive change.
 
