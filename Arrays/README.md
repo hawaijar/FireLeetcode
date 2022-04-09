@@ -12,4 +12,5 @@
 - [Apartment hunting](ApartmentHunting/README.md) - Find the optimal apartment to choose given constraint on facilities' availability. (**Hard**)
 - [Maximum Water Container](MaxWaterContainer/README.md) - Maximum water container given heights of buildings.(**Medium**)
 - [Next permutation](NextPermutation/README.md) - Next permutation for a given list
+- [Minimum non/constructable change](minNonConstructible/README.md) - find the minimum non-constructable change from a given list of changes.
 
