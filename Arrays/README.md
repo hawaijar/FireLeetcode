@@ -14,4 +14,5 @@
 - [Next permutation](NextPermutation/README.md) - Next permutation for a given list
 - [Minimum non/constructable change](minNonConstructible/README.md) - find the minimum non-constructable change from a given list of changes (**Easy**)
 - [Minimum difference](minDifference/README.md) - find the minimum pair difference between two lists(**Easy**)
+- [Move elements to the end](moveElementsEnd/README.md) - move elements to the end of the list(**Easy**)
 
