@@ -21,7 +21,8 @@ public struct Stack<E> {
     }
 }
 
-public func nextGreaterElement(from array: [Int]) -> [Int] {
+public class StackAlgorithm {
+    public func nextGreaterElement(from array: [Int]) -> [Int] {
         // base case
         if array.count == 0 {
             return []
@@ -41,6 +42,8 @@ public func nextGreaterElement(from array: [Int]) -> [Int] {
 
         return output
     }
+}
+
 // Unit Testing function
 func test_next_greater_elements() {
         var array = [2, 5, -3, -4, 6, 7, 2]
