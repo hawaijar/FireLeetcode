@@ -48,6 +48,7 @@ Here's the step -
       - if that's the case, rewards[i] = rewards[i+ 1] + 1
 - Return the sum of rewards array.
 
+Here's the [commit](https://github.com/hawaijar/FireLeetcode/commit/ecee771ee86796f1b883ac9cd976422bd324dbdd) for the new change.
 
 #### Time complexity = O(n)
 #### Space complexity = O(n)
