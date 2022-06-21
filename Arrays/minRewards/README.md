@@ -32,3 +32,22 @@ Explanation: You can allocate to the first, second and third child with 2, 1, 2 
 
 #### Time complexity = O(n²)
 #### Space complexity = O(n)
+
+
+### Can we do it better?
+Yes, we can!
+
+Here's the step -
+
+- Scan from left to right
+  - If currentElement's score > previousElement's score, rewards[i] = rewards[i-1] + 1
+  - Else, rewards[i] = 1
+- Scan from right to left
+  - If currentElement's score > nextElement's score,
+    - Check if currentElement's reward is < nextElement's reward + 1
+      - if that's the case, rewards[i] = rewards[i+ 1] + 1
+- Return the sum of rewards array.
+
+
+#### Time complexity = O(n)
+#### Space complexity = O(n)
