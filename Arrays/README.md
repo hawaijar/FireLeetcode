@@ -16,4 +16,6 @@
 - [Minimum difference](minDifference/README.md) - find the minimum pair difference between two lists(**Easy**)
 - [Move elements to the end](moveElementsEnd/README.md) - move elements to the end of the list(**Easy**)
 - [Is Array Monotonic?](Monotonic/README.md) - Finding monotone of an array(**Easy**)
+- [Distribute candies](minRewards/README.md) - Minimum candies distribution(**Hard**)
+
 
