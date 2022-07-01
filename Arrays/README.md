@@ -18,5 +18,7 @@
 - [Is Array Monotonic?](Monotonic/README.md) - Finding monotone of an array(**Easy**)
 - [Distribute candies](minRewards/README.md) - Minimum candies distribution(**Hard**)
 - [Calendar Matching](ScheduleMeeting/README.md) - Schedule a meeting(**Hard**)
+- [Waterfall Streams](WaterfallStreams/README.md) - Finding the volume of water stored(**Very Hard**)
+
 
 
