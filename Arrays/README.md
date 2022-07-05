@@ -19,6 +19,7 @@
 - [Distribute candies](minRewards/README.md) - Minimum candies distribution(**Hard**)
 - [Calendar Matching](ScheduleMeeting/README.md) - Schedule a meeting(**Hard**)
 - [Waterfall Streams](WaterfallStreams/README.md) - Finding the volume of water stored(**Very Hard**)
+- [Minimum Rectangle Area](MinRectangleArea/README.md) - Finding minimum Area (Rectangle)(**Very Hard**)
 
 
 
