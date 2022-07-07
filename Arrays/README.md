@@ -20,6 +20,7 @@
 - [Calendar Matching](ScheduleMeeting/README.md) - Schedule a meeting(**Hard**)
 - [Waterfall Streams](WaterfallStreams/README.md) - Finding the volume of water stored(**Very Hard**)
 - [Minimum Rectangle Area](MinRectangleArea/README.md) - Finding minimum Area (Rectangle)(**Very Hard**)
+- [Maximum points on line](MaxPointsOnLine/README.md) - Finding maximum points on a line(**Very Hard**)
 
 
 
