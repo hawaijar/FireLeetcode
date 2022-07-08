@@ -1,6 +1,6 @@
 ### List of Strings problems
 
-- [Palindrome checking](Palindrome/README.md) - Given an array and a target, find two numbers whose sum is target [**easy**]
+- [Palindrome checking](Palindrome/README.md) - Given a string, check if it is a palindrome [**easy**]
 
 
 
