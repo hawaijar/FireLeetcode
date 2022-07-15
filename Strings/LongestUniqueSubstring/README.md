@@ -19,7 +19,7 @@ Output: "dabcef"
 
 #### Points to be noted
 - When there is a duplicate character found, we also need to check if the index position
-  is not within the current frame starting with the pointer, p.
+  (of the matched character) is **within the current frame** starting with the pointer, p.
 - i.e. we don't need to check character from the previous frames.
 
 Example:
