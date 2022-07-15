@@ -4,6 +4,7 @@
 - [Caesar Cipher](CaesarCipher/README.md) - Caesar Cipher Encoding of a string [**easy**]
 - [Longest palindrome](LongestPalindrome/README.md) - Longest palindrome [**medium**]
 - [Group Anagrams](GroupAnagrams/README.md) - Grouping anagrams in a list [**easy**]
+- [Longest (unique) Substring](LongestUniqueSubstring/README.md) - Longest substring(unique characters) [**medium**]
 
 
 
