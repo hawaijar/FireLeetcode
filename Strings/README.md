@@ -5,6 +5,7 @@
 - [Longest palindrome](LongestPalindrome/README.md) - Longest palindrome [**medium**]
 - [Group Anagrams](GroupAnagrams/README.md) - Grouping anagrams in a list [**easy**]
 - [Longest (unique) Substring](LongestUniqueSubstring/README.md) - Longest substring(unique characters) [**medium**]
+- [Pattern Matching](PatternMatcher/README.md) - Pattern matching[**hard**]
 
 
 
