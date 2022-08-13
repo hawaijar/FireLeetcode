@@ -6,6 +6,7 @@
 - [Group Anagrams](GroupAnagrams/README.md) - Grouping anagrams in a list [**easy**]
 - [Longest (unique) Substring](LongestUniqueSubstring/README.md) - Longest substring(unique characters) [**medium**]
 - [Pattern Matching](PatternMatcher/README.md) - Pattern matching[**hard**]
+- [Minimum Window Substring](SubStringMatch/README.md) - Minimum Window Matching[**Very hard**]
 
 
 
