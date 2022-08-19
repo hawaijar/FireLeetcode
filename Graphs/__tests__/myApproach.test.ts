@@ -15,7 +15,7 @@
 // it is opinionated of how to do that and you do not have to do it
 // the way I did. however feel free to use it if you'd like
 
-import { findShortestPathLength, Point } from "../ShortestPathMaze";
+import { findShortestPathLength, Point } from "../ShortestPathMaze/myApproach";
 
 // there is a visualization tool in the completed exercise
 // it requires you to shape your objects like I did
@@ -46,7 +46,7 @@ describe("pathfinding – happy path", function () {
   ];
   it("should solve a 6x6 maze", () => {
     expect(
-      findShortestPathLength(sixBySix, { x: 1, y: 1 }, { x: 2, y: 5 })
+      findShortestPathLength(sixBySix, { x: 1, y: 1 }, { x: 5, y: 2 })
     ).toEqual(7);
   });
 
@@ -62,8 +62,8 @@ describe("pathfinding – happy path", function () {
   ];
   it("should solve a 8x8 maze", () => {
     expect(
-      findShortestPathLength(eightByEight, { x: 1, y: 7 }, { x: 7, y: 7 })
-    ).toEqual(16);
+      findShortestPathLength(eightByEight, { x: 6, y: 1 }, { x: 7, y: 7 })
+    ).toEqual(15);
   });
 
   const fifteenByFifteen = [
@@ -93,7 +93,7 @@ describe("pathfinding – happy path", function () {
 // I care far less if you solve these
 // nonetheless, if you're having fun, solve some of the edge cases too!
 // just remove the .skip from describe.skip
-describe.skip("pathfinding – edge cases", function () {
+describe("pathfinding – edge cases", function () {
   const byEachOther = [
     [0, 0, 0, 0, 0],
     [0, 2, 2, 0, 0],
@@ -103,7 +103,7 @@ describe.skip("pathfinding – edge cases", function () {
   ];
   it("should solve the maze if they're next to each other", () => {
     expect(
-      findShortestPathLength(byEachOther, { x: 1, y: 1 }, { x: 2, y: 1 })
+      findShortestPathLength(byEachOther, { x: 1, y: 1 }, { x: 1, y: 2 })
     ).toEqual(1);
   });
 
