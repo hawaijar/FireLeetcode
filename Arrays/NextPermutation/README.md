@@ -24,9 +24,9 @@ There are few ideas that we need to remember before we start solving this proble
 - For a permutation [0,1,3,2], the next permutation is [0,2,1,3]
   - We applied rule 1 here. Find the suffix that's already in descending order. In the above case that is [3, 2]
   - That will be the last permutation, and we can't do anything about it.
-  - The number before that suffix(3,2), in our case, is 2 and that is the pivot element.
-  - Now find the smallest number in the suffix (3,2) that is greater than the pivot element(2). That is 1.
-  - Swap the pivot element(2) and 1. So the suffix becomes [3,1]
+  - The number before that suffix(3,2), in our case, is 1 and that is the pivot element.
+  - Now find the smallest number in the suffix (3,2) that is greater than the pivot element(1). That is 2.
+  - Swap the pivot element(1) and 2. So the suffix becomes [3,1]
   - Sort the suffix and it becomes [1,3]
   - Now the list becomes [0,2,1,3] and that is the next permutation.
 
