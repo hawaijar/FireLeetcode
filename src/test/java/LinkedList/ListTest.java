@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.*;
 public class ListTest {
     @Test
     void testing() {
-        List list = new List();
+        var list = new List();
         list.add(12);
         list.add(13);
         list.add(14);
