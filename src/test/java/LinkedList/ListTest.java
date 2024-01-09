@@ -16,5 +16,7 @@ public class ListTest {
         assertThat(list.print()).containsExactly(12,13,14,15);
         list.remove(2);
         assertThat(list.print()).containsExactly(12,13,15);
+        list.remove(0);
+        assertThat(list.print()).containsExactly(13,15);
     }
 }
