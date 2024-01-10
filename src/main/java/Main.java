@@ -10,7 +10,10 @@ public class Main {
         list.add(14);
         list.add(15);
         System.out.println(Arrays.toString(list.print()));
-        list.remove(3);
+        list.reverse();
+        System.out.println(Arrays.toString(list.print()));
+        list.remove(2);
+        list.reverse();
         System.out.println(Arrays.toString(list.print()));
     }
 }

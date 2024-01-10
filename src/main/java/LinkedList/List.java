@@ -67,6 +67,12 @@ public class List {
             throw new IndexOutOfBoundsException();
         }
         Node node = new Node(data);
+        if(index == 0) {
+            node.next = this.head;
+            this.head = node;
+            this.size += 1;
+            return;
+        }
         Node current = this.head;
         for(int i = 0; i < index - 1; i++) {
             current.setNext(current.getNext());
@@ -107,5 +113,21 @@ public class List {
             current = current.getNext();
         }
        return result;
+    }
+    public void reverse() {
+        // base case
+        if(this.getSize() <= 1) return;
+        var temp = this.head;
+        this.head = this.tail;
+        this.tail = temp;
+        Node before = null;
+        Node after = null;
+        while(after != this.head){
+            after = temp.getNext();
+            temp.setNext(before);
+            before = temp;
+            temp = after;
+        }
+        this.head.setNext(before);
     }
 }
