@@ -131,3 +131,16 @@ public class List {
         this.head.setNext(before);
     }
 }
+
+class ListUtility {
+    public static Node findMiddleNode(LinkedList.List list) {
+        if(list.getSize() == 0) return null;
+        Node slow = list.getHead();
+        Node fast = list.getHead();
+        while(fast != null && fast.getNext() != null) {
+            slow = slow.getNext();
+            fast = fast.getNext().getNext();
+        }
+        return slow;
+    }
+}
