@@ -36,4 +36,13 @@ public class ListTest {
         list.remove(2);
         assertThat(Objects.requireNonNull(ListUtility.findMiddleNode(list)).getData()).isEqualTo(13);
     }
+    @Test
+    void testingListUtility2() {
+        var list = new List();
+        list.add(12);
+        list.add(13);
+        list.add(14);
+        list.add(15);
+        assertThat(Objects.requireNonNull(ListUtility.findKthFromEnd(list, 2)).getData()).isEqualTo(14);
+    }
 }
