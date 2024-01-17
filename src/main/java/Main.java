@@ -1,19 +1,18 @@
 import LinkedList.List;
+import LinkedList.ListUtility;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
         List list = new List();
-        list.add(12);
-        list.add(13);
-        list.add(14);
-        list.add(15);
-        System.out.println(Arrays.toString(list.print()));
-        list.reverse();
-        System.out.println(Arrays.toString(list.print()));
-        list.remove(2);
-        list.reverse();
-        System.out.println(Arrays.toString(list.print()));
+        list.add(3);
+        list.add(8);
+        list.add(5);
+        list.add(10);
+        list.add(2);
+        list.add(1);
+
+    ListUtility.partitionList(list, 5);
     }
 }

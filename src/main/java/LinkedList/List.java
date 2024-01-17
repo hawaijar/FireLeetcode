@@ -34,6 +34,11 @@ public class List {
         this.tail = null;
         this.size = 0;
     }
+    void clear() {
+        this.head = null;
+        this.tail = null;
+        this.size = 0;
+    }
     void setHead(Node node){
         this.head = node;
     }
@@ -132,41 +137,3 @@ public class List {
     }
 }
 
-class ListUtility {
-    public static Node findMiddleNode(LinkedList.List list) {
-        if(list.getSize() == 0) return null;
-        Node slow = list.getHead();
-        Node fast = list.getHead();
-        while(fast != null && fast.getNext() != null) {
-            slow = slow.getNext();
-            fast = fast.getNext().getNext();
-        }
-        return slow;
-    }
-    public boolean hasLoop(LinkedList.List list) {
-        if(list.getSize() == 0) return false;
-        Node slow = list.getHead();
-        Node fast = list.getHead();
-        while(fast != null && fast.getNext() != null) {
-            slow = slow.getNext();
-            fast = fast.getNext().getNext();
-            if(slow == fast) return true;
-        }
-        return false;
-    }
-    public static Node findKthFromEnd(LinkedList.List list, int k) {
-        if(list.getHead() == null) return null;
-        Node slow = list.getHead();
-        Node fast = list.getHead();
-        for(int i = 0; i < k; i++) {
-            if(fast == null) return null;
-            fast = fast.getNext();
-        }
-
-        while(fast != null) {
-            slow = slow.getNext();
-            fast = fast.getNext();
-        }
-        return slow;
-    }
-}
