@@ -1,5 +1,8 @@
 package LinkedList;
 
+import java.util.HashMap;
+import java.util.HashSet;
+
 public class ListUtility {
     public static Node findMiddleNode(List list) {
         if(list.getSize() == 0) return null;
@@ -62,5 +65,22 @@ public class ListUtility {
         currentLess.next = greaterList.next;
 
         head = lessList.next;
+    }
+
+    public static void removeDuplicates(List list) {
+        HashSet<Integer> set = new HashSet<>();
+        Node previous = null;
+        Node current = list.getHead();
+
+        while(current != null) {
+            if(set.contains(current.getData())) {
+                previous.setNext(current.getNext());
+                list.size -= 1;
+            } else {
+                set.add(current.getData());
+                previous = current;
+            }
+            current = current.getNext();
+        }
     }
 }
