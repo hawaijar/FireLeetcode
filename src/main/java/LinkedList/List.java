@@ -135,5 +135,17 @@ public class List {
         }
         this.head.setNext(before);
     }
+    public int binaryToDecimal() {
+        var result = 0;
+        int i = 0;
+        Node current = this.getHead();
+        while(current != null) {
+            // validation of each list node
+            if(current.getData() != 0 && current.getData() != 1) return 0;
+            result = (result << 1) | current.getData();
+            current = current.getNext();
+        }
+        return result;
+    }
 }
 

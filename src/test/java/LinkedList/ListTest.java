@@ -75,4 +75,19 @@ public class ListTest {
         ListUtility.removeDuplicates(list);
         assertThat(list.print()).containsExactly(1);
     }
+    @Test
+    void testingBinaryToDecimal() {
+        var list = new List();
+        list.add(1);
+        list.add(1);
+        list.add(0);
+        list.add(1);
+        assertThat(list.binaryToDecimal()).isEqualTo(13);
+        list.clear();
+        list.add(1);
+        list.add(1);
+        list.add(1);
+        assertThat(list.binaryToDecimal()).isEqualTo(7);
+
+    }
 }
