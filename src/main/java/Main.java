@@ -1,19 +1,40 @@
-import LinkedList.List;
-import LinkedList.ListUtility;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.ToString;
 
-import java.math.BigInteger;
-import java.util.Arrays;
+import java.text.NumberFormat;
+import java.util.List;
+import java.util.Locale;
 
+@Data
+@AllArgsConstructor
+@ToString
+class Employee {
+	private String name;
+	private int age;
+	private String designation;
+	private double salary;
+}
 public class Main {
     public static void main(String[] args) {
-        List list = new List();
-        list.add(3);
-        list.add(8);
-        list.add(5);
-        list.add(10);
-        list.add(2);
-        list.add(1);
+		List<Employee> employees = List.of(
+			new Employee("John", 25, "Software Engineer", 50000),
+			new Employee("David", 30, "Senior Software Engineer", 75000),
+			new Employee("Steve", 28, "Software Engineer", 60000),
+			new Employee("Anna", 35, "Software Engineer", 55000),
+			new Employee("Mike", 32, "Senior Software Engineer", 80000)
+		);
 
-    ListUtility.partitionList(list, 5);
+		employees.forEach(System.out::println);
+
+		double amount = 1234.5678;
+		NumberFormat nf = NumberFormat.getCurrencyInstance();
+		nf.setMaximumFractionDigits(2);
+		System.out.println(nf.format(amount));
+		nf = NumberFormat.getCurrencyInstance(Locale.JAPAN);
+		nf.setMaximumFractionDigits(2);
+		System.out.println(nf.format(amount));
+		System.out.println(nf.getClass().getName());
     }
+
 }
