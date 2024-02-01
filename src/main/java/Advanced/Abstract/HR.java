@@ -33,10 +33,8 @@ public class HR {
 	public static void main(String[] args) {
 		HR hr = new HR();
 		hr.hire(new Salaried("John", 50000));
-		hr.hire(new Salaried("David", 75000));
-		hr.hire(new Salaried("Steve", 60000));
-		hr.hire(new Salaried("Anna", 55000));
-		hr.hire(new Salaried("Mike", 80000));
+		hr.hire(new Salaried("Sally", 60000));
+		hr.hire(new Hourly("Bob", 80, 50));
 		hr.printEverybody();
 		hr.payEverybody();
 	}
