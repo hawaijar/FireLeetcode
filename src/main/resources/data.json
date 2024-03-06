@@ -1,0 +1,98 @@
+{
+  "id": "468bae3a-f737-4641-85a3-097f6960f1d0",
+  "changes": {
+    "id": "468bae3a-f737-4641-85a3-097f6960f1d0",
+    "name": "FedEx",
+    "partner_code": "FEDEX",
+    "contact_name": "John Doe",
+    "email": "john@fedex.com",
+    "postal_code": "123456",
+    "phone_no": "1234567890",
+    "phonecode": "91",
+    "alternate_phone_code": null,
+    "alternate_phone_no": null,
+    "contact_fax_code": null,
+    "contact_fax_no": null,
+    "gps_enabled": false,
+    "partner_category": "STRING",
+    "partner_category_id": "7ed185ac-55de-4ec2-b86e-1262c8e408b1",
+    "partner_type": "AGENT",
+    "partner_type_id": "9ee51d71-5f8b-40f1-80cf-c8b75762e5ec",
+    "status": "Active",
+    "organisation_id": "e67b28b1-5b31-41ca-80e6-6f281bec3b75",
+    "partner_logo": "https://www.example.com/logo.png",
+    "deleted_at": null,
+    "created_at": "2023-12-01T04:12:57.400Z",
+    "updated_at": "2024-01-31T06:39:35.235Z",
+    "location_id": "c3f4a87f-6de7-43bf-af08-d7dea73f9545",
+    "location_type": "FACILITY",
+    "business_address1": "",
+    "business_address2": "Da Nang 1",
+    "business_address3": "Da Nang 1",
+    "partner_services": [
+      {
+        "id": "ce9a7c73-4961-4b56-b13a-e85d3dd32050",
+        "name": "Express",
+        "code": "EXP",
+        "description": "FedEx Express",
+        "status": "active",
+        "min_weight": 3.1415,
+        "max_weight": 42.4242,
+        "cost": 29.07,
+        "lead_time_in_hrs": 23
+      },
+      {
+        "id": "ce9a7c73-4961-4b56-b13a-e85d3dd32050",
+        "name": "Economy",
+        "code": "ECO",
+        "description": "FedEx Economy",
+        "status": "active",
+        "min_weight": 3.1415,
+        "max_weight": 42.4242,
+        "cost": 29.07,
+        "lead_time_in_hrs": 23
+      }
+    ],
+    "partner_service_locations": [
+      {
+        "id": "ce9a7c73-4961-4b56-b13a-e85d3dd32050",
+        "type": "first_mile",
+        "location_id": "b6d88b3b-f1dd-4b1a-9c32-87c1182b788f",
+        "location_name": "Bangalore",
+        "location_type_name": "CITY",
+        "ancestor_ids": [
+          "15434cf6-033d-4128-8267-38ec0f070966",
+          "8382282e-23ee-4bb5-8687-da13c0f7d07b"
+        ],
+        "ancestor_names": [
+          "INDIA",
+          "KARNATAKA"
+        ]
+      },
+      {
+        "id": "ce9a7c73-4961-4b56-b13a-e85d3dd32050",
+        "type": "first_mile",
+        "location_id": "b6d88b3b-f1dd-4b1a-9c32-87c1182b788f",
+        "location_name": "Panaji",
+        "location_type_name": "CITY",
+        "ancestor_ids": [
+          "15434cf6-033d-4128-8267-38ec0f070966"
+        ],
+        "ancestor_names": [
+          "INDIA",
+          "GOA"
+        ]
+      }
+    ],
+    "tags": [],
+    "location_ancestors": {
+      "country_id": "11fbd028-ceec-47bc-b2d1-6982c4d24945",
+      "state_province_id": "b6deaec6-2873-4311-905e-ac1246513884",
+      "city_id": "6fc80b82-8fc0-4982-9c1c-8f7bc26eaf37",
+      "ancestors": "ABC,"
+    },
+    "managed_locations": [],
+    "api_integration_enabled": false,
+    "api_integration_config": {}
+  }
+}
