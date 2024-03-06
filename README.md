@@ -1,1 +1,1 @@
-## Data Structure and Algorithms in Java (based on Amazon and other interviews)
+## Data Structure and Algorithms in Java (based on Algoexpert) questions and solutions)
